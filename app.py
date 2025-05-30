@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Helper function to load models
-def load_model(filename):
+def load_model():
     with open(filename, 'rb') as f:
         return pickle.load(f)
 
